@@ -11,6 +11,7 @@ from app.schemas import Number
 
 app = FastAPI()
 
+
 @app.post("/convert")
 def number_convert(number: Number):
     xml_body = create_xml_body(ubi_num=number.ubi_num)
@@ -18,8 +19,10 @@ def number_convert(number: Number):
     response_json = convert_to_json(data_xml=words_response.content)
     return JSONResponse(content=response_json)
 
+
 @app.get("/test")
 def start_test():
+    """Автоматическое тестирование прокси-сервиса на 3 рандомных числах"""
     test_json = {}
     for _ in range(3):
         ubi_num_random = random.randint(1, 1000)

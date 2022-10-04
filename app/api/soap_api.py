@@ -4,6 +4,7 @@ BASE_URL = "www.dataaccess.com"
 
 
 def convert_number_to_words(data_xml: str):
+    """Запрос к soap-api"""
     response = requests.post(
         url=f"https://{BASE_URL}/webservicesserver/NumberConversion.wso",
         headers={
