@@ -1,4 +1,4 @@
-Proxy на FastAPI для <a href="https://www.dataaccess.com/webservicesserver/NumberConversion.wso?op=NumberToWords">API</a>
+Proxy на FastAPI для <a href="https://www.dataaccess.com/webservicesserver/NumberConversion.wso?op=NumberToWords">SOAP API - NumberToWords</a>
 
 <i>Принимает запрос в json, конвертирует в xml, отправляет запрос на API, принимает ответ, возвращает конвертированный в json ответ</i>
 
