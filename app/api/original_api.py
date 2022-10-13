@@ -3,7 +3,7 @@ import requests
 BASE_URL = "www.dataaccess.com"
 
 
-def convert_number_to_words(data_xml: str):
+def original_number_to_words(data_xml: str):
     """Запрос к soap-api"""
     response = requests.post(
         url=f"https://{BASE_URL}/webservicesserver/NumberConversion.wso",
@@ -14,6 +14,7 @@ def convert_number_to_words(data_xml: str):
         },
         data=data_xml)
     return response
+
 
 
 
