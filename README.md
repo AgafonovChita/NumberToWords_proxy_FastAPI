@@ -1,19 +1,23 @@
 <b>Способ 1. Запуск в конктейнере</b><p>
-1.Установить Docker и Docker-compose<p>
-2.Клонировать репозиторий <code>git clone https://github.com/AgafonovChita/proxy_project.git </code><p>
-3.Перейти в рабочую директорию <code>cd proxy_project</code><p>
-4.Запустить контейнер <code>make run</code><p>
-5.Приложение станет доступно на <a href=http://0.0.0.0:8000>0.0.0.0:8000</a><p>
+<ol>
+<li>Установить Docker и Docker-compose
+<li>Клонировать репозиторий <code>git clone https://github.com/AgafonovChita/proxy_project.git </code>
+<li>Перейти в рабочую директорию <code>cd proxy_project</code>
+<li>Запустить контейнер <code>make run</code>
+<li>Приложение станет доступно на <a href=http://0.0.0.0:8000>0.0.0.0:8000</a>
+</ol>
 Чтобы остановить приложение <code>make stop</code><p><p>
 
 <b>Способ 2. Локальный запуск</b><p>
-1.Клонировать репозиторий <code>git clone https://github.com/AgafonovChita/proxy_project.git </code><p>
-2.Перейти в рабочую директорию <code>cd proxy_project</code><p>
-3.<code>python -m venv venv</code><p>
-4.<code>source venv/bin/activate</code><p>
-5.<code>pip install -r ./requirements.txt</code><p>
-6.<code>uvicorn main:app --reload --host 0.0.0.0 --port 8000</code><p>
-7.Приложение станет доступно на <a href=http://0.0.0.0:8000>0.0.0.0:8000</a><p>
+<ol>
+<li>Клонировать репозиторий <code>git clone https://github.com/AgafonovChita/proxy_project.git </code>
+<li>Перейти в рабочую директорию <code>cd proxy_project</code>
+<li><code>python -m venv venv</code>
+<li><code>source venv/bin/activate</code>
+<li><code>pip install -r ./requirements.txt</code>
+<li><code>uvicorn main:app --reload --host 0.0.0.0 --port 8000</code>
+<li>Приложение станет доступно на <a href=http://0.0.0.0:8000>0.0.0.0:8000</a>
+  </ol>
 
 
 
