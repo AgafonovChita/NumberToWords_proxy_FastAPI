@@ -1,3 +1,7 @@
+Proxy-server для API (https://www.dataaccess.com/webservicesserver/NumberConversion.wso?op=NumberToWords)
+
+<i>Принимает запрос в json, конвертирует в xml, отправляет запрос на API, принимает ответ, возвращает конвертированный в json ответ</i>
+
 <b>Способ 1. Запуск в конктейнере</b>
   <ol>
     <li>Установить Docker и Docker-compose
