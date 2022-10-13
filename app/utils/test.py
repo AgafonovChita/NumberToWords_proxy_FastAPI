@@ -5,7 +5,7 @@ from app.utils import convert_json_to_dict
 
 
 def test_api():
-    """автоматическое тестирование proxy на 3 рандомных числах"""
+    """Тестирование proxy на 3 рандомных числах"""
     test_json = {}
     for _ in range(3):
         ubi_num_random = random.randint(1, 1000)

@@ -11,6 +11,8 @@ def proxy_number_to_words(number: Number):
 
 
 def converter(original_method):
+    """Декоратор над оригинальным методом soap-api (конвертируем в xml,
+    вызываем оригинальные метод, конвертируем ответ в json)"""
     def wrapper(number: Number):
         xml_body = create_xml_body(ubi_num=number.ubi_num)
         response = original_method(data_xml=xml_body)
