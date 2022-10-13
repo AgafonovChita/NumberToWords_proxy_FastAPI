@@ -1,6 +1,14 @@
 Proxy на FastAPI для <a href="https://www.dataaccess.com/webservicesserver/NumberConversion.wso?op=NumberToWords">SOAP API - NumberToWords</a>
 
-<i>Принимает запрос в json, конвертирует в xml, отправляет запрос на API, принимает ответ, возвращает конвертированный в json ответ</i>
+
+<ol>
+  <li>принимает запрос в json
+  <li>конвертирует в xml
+  <li>отправляет запрос на оригинальное API
+  <li>принимает ответ
+  <li>возвращает конвертированный в json ответ
+</ol>
+
 
 <b>Способ 1. Запуск в конктейнере</b>
   <ol>
