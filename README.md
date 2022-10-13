@@ -1,7 +1,7 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 
-<b>Proxy на FastAPI</b> для <a href="https://www.dataaccess.com/webservicesserver/NumberConversion.wso?op=NumberToWords">SOAP API - NumberToWords</a>
+#<b>Proxy на FastAPI</b> для <a href="https://www.dataaccess.com/webservicesserver/NumberConversion.wso?op=NumberToWords">SOAP API - NumberToWords</a>
 
 
 <ol>
@@ -14,8 +14,8 @@
 
 ________________________________________________________________
 
-<b>УСТАНОВКА</b><br>
-<b>Способ 1. Запуск в конктейнере</b>
+#<b>УСТАНОВКА</b><br>
+##<b>Способ 1. Запуск в конктейнере</b>
   <ol>
     <li>Установить Docker и Docker-compose
     <li>Клонировать репозиторий <code>git clone https://github.com/AgafonovChita/proxy_project.git </code>
@@ -26,7 +26,7 @@ ________________________________________________________________
 Чтобы остановить приложение <code>make stop</code><p>
 
 
-<b>Способ 2. Локальный запуск</b>
+##<b>Способ 2. Локальный запуск</b>
   <ol>
     <li>Клонировать репозиторий <code>git clone https://github.com/AgafonovChita/proxy_project.git </code>
     <li>Перейти в рабочую директорию <code>cd proxy_project</code>
@@ -40,7 +40,7 @@ ________________________________________________________________
 
 ________________________________________________________________
 
-<b>Использование</b><br>
+#<b>Использование</b><br>
 1.Proxy-endpoint:<br>
 <b>POST</b> /proxy_number_to_words<br>
 <b>Host</b>: http://0.0.0.0:8000 <br>
